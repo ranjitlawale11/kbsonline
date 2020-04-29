@@ -30,7 +30,7 @@ $red:             #cb3d4d;
 $orange:          #f98012; // Accent (never text).
 $yellow:          #fbad1a; // Accent (never text).
 $purple:          #8e24aa; // Accent (never text).
-
+$custom:          #09143c; // Custom Color.
 // Branded apps customization
 // --------------------------------------------------
 @import "bmma";
@@ -52,7 +52,8 @@ $orange-light:    lighten($orange, 10%) !default;
 $yellow-light:    mix($yellow, white, 20%) !default;
 $yellow-dark:     mix($yellow, black, 40%) !default;
 
-$core-color:          $orange !default;
+// $core-color:          $orange !default;
+$core-color:          $custom !default;
 $core-color-light:    lighten($core-color, 10%) !default;
 $core-color-dark:     darken($core-color, 10%) !default;
 
